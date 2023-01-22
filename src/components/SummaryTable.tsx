@@ -1,7 +1,7 @@
 import React from "react";
-import { generateDatesFromYearBeginning } from "../../utils/generate-dates-from-year-beginning";
-import { HabitDay } from "../HabitDay";
-import { WeekDays } from "../WeekDays";
+import { generateDatesFromYearBeginning } from "../utils/generate-dates-from-year-beginning";
+import { HabitDay } from "./HabitDay";
+import { WeekDays } from "./WeekDays";
 
 const summaryDates = generateDatesFromYearBeginning();
 const minimumSummaryDatesSize = 18 * 7; //18 weeks
